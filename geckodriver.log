@@ -11,3 +11,16 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1634742000167	geckodriver	INFO	Listening on 127.0.0.1:61615
+1634742003231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61616" "-no-remote" "-profile" "C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\rust_mozprofileqT5HZv"
+1634742004174	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TobiasVerleger\\AppData\\Local\\Temp\\rust_mozprofileqT5HZv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61616/devtools/browser/cdbe4fcf-a36f-4c10-bc00-c8cdfcad6cf2
+1634742007893	Marionette	INFO	Listening on port 61621
+1634742008084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634742027736	Marionette	INFO	Stopped listening on port 61621
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
