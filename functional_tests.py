@@ -23,3 +23,6 @@ class PatientOverviewTest(unittest.TestCase):
 # When adding a patient a unique id will be visible
 
 # close browser
+
+if __name__ == '__main__':
+    unittest.main(warnings='ignore')
