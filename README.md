@@ -9,6 +9,11 @@ python -m venv .venv
 ``` 
 ## Install dependencies from requirements.txt
 
+#  Run the server
+```bash 
+python manage.py runserver
+```
+
 
 # Run Functional Test
 In the Virtual Environment you can run the functional test by 
